@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ejemplo_ProxyVacunacion1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../patron Proxy/proxy vacunacion/ejemplo_ProxyVacunacion.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

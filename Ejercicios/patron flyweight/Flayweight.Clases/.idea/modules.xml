@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Patron template Method/BackEndPizzeria/BackEndPizzeria.iml" filepath="$PROJECT_DIR$/../../Patron template Method/BackEndPizzeria/BackEndPizzeria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Patron template Method/Prueba/Clase3Vivo/Clase3Vivo.iml" filepath="$PROJECT_DIR$/../../Patron template Method/Prueba/Clase3Vivo/Clase3Vivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../patron observer-cadena de responsabilidad/ControlCalidad/ControlCalidad1.iml" filepath="$PROJECT_DIR$/../../patron observer-cadena de responsabilidad/ControlCalidad/ControlCalidad1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../patron observer-cadena de responsabilidad/ControlProductos/ControlProductos1.iml" filepath="$PROJECT_DIR$/../../patron observer-cadena de responsabilidad/ControlProductos/ControlProductos1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../patron Proxy/EjercicioProxyGoogleDive/EjercicioProxyGoogleDive.iml" filepath="$PROJECT_DIR$/../../patron Proxy/EjercicioProxyGoogleDive/EjercicioProxyGoogleDive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlayweitClases.iml" filepath="$PROJECT_DIR$/FlayweitClases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Patron template Method/Prueba/Prueba.iml" filepath="$PROJECT_DIR$/../../Patron template Method/Prueba/Prueba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../RepasoPOO/RepasoPOO.iml" filepath="$PROJECT_DIR$/../../RepasoPOO/RepasoPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Patron template Method/cocinero/cocinero.iml" filepath="$PROJECT_DIR$/../../Patron template Method/cocinero/cocinero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../patron observer-cadena de responsabilidad/creditos/creditos1.iml" filepath="$PROJECT_DIR$/../../patron observer-cadena de responsabilidad/creditos/creditos1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../patron flyweight.iml" filepath="$PROJECT_DIR$/../patron flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../patron Proxy/proxy vacunacion/proxy vacunacion.iml" filepath="$PROJECT_DIR$/../../patron Proxy/proxy vacunacion/proxy vacunacion.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="patron Proxy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../patron Proxy/Netflix-proxy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../patron Proxy/proxy-internet.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

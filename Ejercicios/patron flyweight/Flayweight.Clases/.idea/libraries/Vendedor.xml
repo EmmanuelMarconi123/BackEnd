@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Vendedor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Patron template Method/Vendedor.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

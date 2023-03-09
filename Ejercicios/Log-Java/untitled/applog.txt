@@ -1,0 +1,21 @@
+INFO    2023-02-24 15:12:01,712 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2023-02-24 15:12:01,713 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2023-02-24 15:12:01,713 [main] ListaPromedio  - La longituda de la lista es mayor a 10
+ERROR   2023-02-24 15:12:01,713 [main] Test  - La lista es igual a cero 
+java.lang.Exception
+	at ListaPromedio.<init>(ListaPromedio.java:19)
+	at Test.main(Test.java:21)
+INFO    2023-02-24 15:43:13,478 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2023-02-24 15:43:13,479 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2023-02-24 15:43:13,480 [main] ListaPromedio  - La longituda de la lista es mayor a 10
+ERROR   2023-02-24 15:43:13,490 [main] Test  - La lista es igual a cero 
+java.lang.Exception
+	at ListaPromedio.<init>(ListaPromedio.java:19)
+	at Test.main(Test.java:21)
+INFO    2023-02-25 11:12:39,717 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2023-02-25 11:12:39,719 [main] ListaPromedio  - La longituda de la lista es mayor a 5
+INFO    2023-02-25 11:12:39,720 [main] ListaPromedio  - La longituda de la lista es mayor a 10
+ERROR   2023-02-25 11:12:39,721 [main] Test  - La lista es igual a cero 
+java.lang.Exception
+	at ListaPromedio.<init>(ListaPromedio.java:19)
+	at Test.main(Test.java:21)
