@@ -1,0 +1,1 @@
+INFO    2023-03-07 10:36:11,414 [main] class com.Test.EmmanuelMarconi.test  - probando el loguer aca
