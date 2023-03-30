@@ -1,0 +1,19 @@
+{
+    "id" : 1,
+    "resultado" : "gano",
+    "estado" : "POR_COMENZAR",
+     "equipoLocal" : {
+         "id": 22,
+          "nombre": "Central",
+          "pais":"Argentina"
+     },
+
+        "equipoVisitante" : {
+         "id": 22,
+          "nombre": "Central",
+          "pais":"Argentina"
+     }
+}
+
+
+mongodb://localhost:27017

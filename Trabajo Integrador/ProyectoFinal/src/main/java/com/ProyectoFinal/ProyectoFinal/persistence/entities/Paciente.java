@@ -1,14 +1,24 @@
 package com.ProyectoFinal.ProyectoFinal.persistence.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
+@Getter
+@Setter
+@ToString
 @Entity
+@Table(name="Pacientes")
 public class Paciente {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column
@@ -23,46 +33,25 @@ public class Paciente {
     @Column
     private Date fechaDeIngreso;
 
-    @Column
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "domicilios_id")
     private Domicilio domicilio;
 
-    public String getNombre() {
-        return nombre;
-    }
 
-    public void setNombre(String nombre) {
+
+    @OneToMany(mappedBy = "paciente")
+    @JsonIgnore
+    private Set<Turno> turno = new HashSet<>();
+
+
+    public Paciente(String nombre, String apellido, Integer DNI, Date fechaDeIngreso, Domicilio domicilio) {
         this.nombre = nombre;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
         this.apellido = apellido;
-    }
-
-    public Integer getDNI() {
-        return DNI;
-    }
-
-    public void setDNI(Integer DNI) {
         this.DNI = DNI;
-    }
-
-    public Date getFechaDeIngreso() {
-        return fechaDeIngreso;
-    }
-
-    public void setFechaDeIngreso(Date fechaDeIngreso) {
         this.fechaDeIngreso = fechaDeIngreso;
-    }
-
-    public Domicilio getDomicilio() {
-        return domicilio;
-    }
-
-    public void setDomicilio(Domicilio domicilio) {
         this.domicilio = domicilio;
+    }
+
+    public Paciente() {
     }
 }
